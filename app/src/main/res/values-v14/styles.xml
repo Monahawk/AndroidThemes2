@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Android API 14+ -->
+        <item name="android:windowBackground">#ffedeba6</item>
+
+        <item name="android:editTextColor">#ffb62a23</item>
+        <item name="android:textColorPrimary">#ffb62a23</item>
+        <item name="android:textColorSecondary">#ffb62a23</item>
+        <item name="android:textColorTertiary">#ffb62a23</item>
+        <item name="android:textColorPrimaryInverse">#ffb62a23</item>
+        <item name="android:textColorSecondaryInverse">#ffb62a23</item>
+        <item name="android:textColorTertiaryInverse">#ffb62a23</item>
+
+    </style>
+
+</resources>

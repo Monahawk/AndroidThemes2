@@ -1,0 +1,46 @@
+<resources>
+
+    <!--
+
+    Theme.Light : Android 3.0
+    Theme.Holo.Light: Introduced in Android API 11
+    Theme.Holo.Light.DarkActionBar: Introduced API 14
+
+
+    -->
+
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- Android API 10 - lower -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">#ffedeba6</item>
+
+        <item name="android:editTextColor">#ffb62a23</item>
+        <item name="android:textColorPrimary">#ffb62a23</item>
+        <item name="android:textColorSecondary">#ffb62a23</item>
+        <item name="android:textColorTertiary">#ffb62a23</item>
+        <item name="android:textColorPrimaryInverse">#ffb62a23</item>
+        <item name="android:textColorSecondaryInverse">#ffb62a23</item>
+        <item name="android:textColorTertiaryInverse">#ffb62a23</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
